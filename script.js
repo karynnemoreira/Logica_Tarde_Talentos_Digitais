@@ -157,56 +157,56 @@
 //  console.log(typeof _batata)
 // console.log(typeof chuchu)
 //  console.log(typeof niver)
-//  console.log(typeof _niver)
+// //  console.log(typeof _niver)
 
 
 
 
-// //Operadores de comparações  
-// let numero = 2 //tipo number
-// console.log(typeof numero)
+// // //Operadores de comparações  
+// // let numero = 2 //tipo number
+// // console.log(typeof numero)
 
-// // = atribuição de tipo/recebe 
-// console.log(numero)
+// // // = atribuição de tipo/recebe 
+// // console.log(numero)
 
-// // == verificação de valor (verifica se o 2 é o mesmo)
-// console.log(numero ==  2) //retornou true pq o valor é 2
-// console.log (numero == 4) //retornou false pq o valor NÃO é 2
+// // // == verificação de valor (verifica se o 2 é o mesmo)
+// // console.log(numero ==  2) //retornou true pq o valor é 2
+// // console.log (numero == 4) //retornou false pq o valor NÃO é 2
 
-// // === verificação de tipo e valor - Estritamente igual  (verifica se é o 2 e se é number)
-// console.log(numero === 2) //retornou true pq o valor e o tipo são iguais
-// console.log(numero === "2") //retornou false pq o valor é uma string "2"
+// // // === verificação de tipo e valor - Estritamente igual  (verifica se é o 2 e se é number)
+// // console.log(numero === 2) //retornou true pq o valor e o tipo são iguais
+// // console.log(numero === "2") //retornou false pq o valor é uma string "2"
 
-// // != verifica se o valor comparado é diferente (verificia se o 2 é  diferente de um outro valor)
+// // // != verifica se o valor comparado é diferente (verificia se o 2 é  diferente de um outro valor)
 
-// console.log(numero != 5) // true, pq o valor 5 é diferente do valor 2
+// // console.log(numero != 5) // true, pq o valor 5 é diferente do valor 2
 
-// console.log(numero != "cachorro") // true, pq o valor "cachorro" é diferente do valor 2
+// // console.log(numero != "cachorro") // true, pq o valor "cachorro" é diferente do valor 2
 
-// // !== verifica se o valoré diferente (verifica se o 2 é diferente de um outro valor , e se ele também é diferente de um number)
+// // // !== verifica se o valoré diferente (verifica se o 2 é diferente de um outro valor , e se ele também é diferente de um number)
 
-// 2 é diferente de 3? 
-console.log(numero !== 3) //true, pq o 2 é diferente de 3
+// // 2 é diferente de 3? 
+// console.log(numero !== 3) //true, pq o 2 é diferente de 3
 
-// 2 é diferente de 2? 
-console.log(numero !== 2) //é falsa essa informação. Pq 2 é igual a 2.
-
-
-// console.log(numero !== "gato")
-
-// let animal = "pato"
-
-// console.log ("pato" == "galinha")
+// // 2 é diferente de 2? 
+// console.log(numero !== 2) //é falsa essa informação. Pq 2 é igual a 2.
 
 
-// //  > maior que 
+// // console.log(numero !== "gato")
 
-// let number = 10
+// // let animal = "pato"
 
-// console.log(number > 3) //true pq number(10) é maior que valor 3 
-console.log (number > 10) //false pq o number(10) não é maior que 10.
+// // console.log ("pato" == "galinha")
 
-// // < menor que
+
+// // //  > maior que 
+
+// // let number = 10
+
+// // console.log(number > 3) //true pq number(10) é maior que valor 3 
+// console.log (number > 10) //false pq o number(10) não é maior que 10.
+
+// // // < menor que
 // console.log(number < 3) // false pq o number 10 NÃO é menor que o valor 3
 
 
@@ -237,93 +237,244 @@ console.log (number > 10) //false pq o number(10) não é maior que 10.
 
 //Se a condição for verdadeira, executar a tarefa
 
-let idade = 2
+// let idade = 2
 
-if(idade >= 18){
-    console.log("Você já é velho")
-}
-
-
-//Exemplo com if e else
-
-let nascimento = 1901
-
-if(nascimento === 1998){
-console.log("Sou novinha")
-} else{
-    console.log("Tô veinha")
-}
-//------------------------------
-
-let $nascimento = 18
-
-if(nascimento >= 18){
-console.log("Você pode acessar o zé delivery")
-} else { //senão, caso a resposta for negativa, cai aqui. 
-    console.log("Vai tomar toddynho")
-}
-
-
-//------------------------------
-
-let segundaFeira = false
-
-if(segundaFeira == true){
-console.log("Uhull segundou")
-}else{
-    console.log("Que venha sexta!!")
-}
-
-
-
-
-//ELSE (senão): Ele vai ler o if primeiro, senão for verdade, vai executar o else. 
-
-// //Estrutura
-// if(condição){
-//     // executa isso caso a mensagem seja verdadeira
-// } else {
-//     //executa isso caso a mensagem não seja verdadeira
+// if(idade >= 18){
+//     console.log("Você já é velho")
 // }
 
-let idade2 = 10
 
-if(idade2 >= 18){
-console.log("Você já é velho cascudo.")
-}else{
-console.log("Volte para a casa")
+// //Exemplo com if e else
+
+// let nascimento = 1901
+
+// if(nascimento === 1998){
+// console.log("Sou novinha")
+// } else{
+//     console.log("Tô veinha")
+// }
+// //------------------------------
+
+// let $nascimento = 18
+
+// if(nascimento >= 18){
+// console.log("Você pode acessar o zé delivery")
+// } else { //senão, caso a resposta for negativa, cai aqui. 
+//     console.log("Vai tomar toddynho")
+// }
+
+
+// //------------------------------
+
+// let segundaFeira = false
+
+// if(segundaFeira == true){
+// console.log("Uhull segundou")
+// }else{
+//     console.log("Que venha sexta!!")
+// }
+
+
+
+
+// //ELSE (senão): Ele vai ler o if primeiro, senão for verdade, vai executar o else. 
+
+// // //Estrutura
+// // if(condição){
+// //     // executa isso caso a mensagem seja verdadeira
+// // } else {
+// //     //executa isso caso a mensagem não seja verdadeira
+// // }
+
+// let idade2 = 10
+
+// if(idade2 >= 18){
+// console.log("Você já é velho cascudo.")
+// }else{
+// console.log("Volte para a casa")
+// }
+
+
+
+// //Else if 
+
+// let dia = 27
+
+// if(dia === 0){
+//     console.log("Domingo")
+// } else if(dia === 1){
+//     console.log("Segunda")
+// } else if(dia === 2) {
+//     console.log("Terça")
+// }else if(dia === 3){
+// console.log("Quarta")
+// } else{
+//     console.log("dia inválido")
+// }
+
+
+// // Bônus: Em valores binários 0 é false e 1 é true
+
+
+// let animal2 = "cachorro"
+
+// if(animal2 == "gato") {
+// console.log("Miau")
+// } else if(animal2 == "papagaio"){
+// console.log("Parabéns pra você")
+// } else if (animal2 == "pato"){
+//     console.log("qua qua ")
+// } else{
+//     console.log("Não adivinhou o animal")
+// }
+
+
+// let teste = "Boa tarde" //uma gavetinha que está guardando  o valor "Boa tarde"
+// console.log(teste)
+
+// // == verificação de valor
+// console.log(teste == "Bom dia") //false pq o valor "Boa tarde" é diferente do valor "Bom dia"
+
+// console.log(teste == "Boa tarde") //true pq o valor "Boa tarde" é igual ao valor "Boa tarde"
+
+// // === verificação de valor e tipo 
+// console.log(teste === 5) //false pq o tipo da variável é string e o valor é "Boa tarde", na comparação o 5 é um tipo numérico e o valor é 5. 
+
+// console.log (teste === "Boa tarde") //true pq o valor é "Boa tarde" e o tipo é string 
+
+
+// // != Verifica se o VALOR é diferente 
+
+// let nome = "Evelyn" //type string = tipo textual 
+// console.log (typeof nome) // saber o tipo da variável
+
+// console.log(nome != 5) //true pq é verdade que 5 é diferente de "Evelyn"
+
+// console.log(nome != "Lima") //true pq é verdade que "Lima" é diferente de "Evelyn"
+
+// console.log(nome != "Evelyn") //false pq é mentira que "Evelyn" é diferente de "Evelyn"
+
+// // !==  Verifica se o valor e o tipo são diferentes
+
+// console.log(nome !== "Evelyn") // É falsa essa afirmação
+// console.log (nome !== "Ana Beatriz") // É verdadeira essa afirmação, pq o valor "Evelyn" é  diferente do valor "Ana Beatriz"
+// console.log(nome != 5) // É verdadeira essa informação, "Evelyn" é diferente de 5. 
+
+
+
+// Guardando dentro de uma variável um valor boolean (Verdadeiro ou falso)
+
+
+// let idadeMaiorQueDezoito = true //Nessa gavetinha guardei o valor true
+
+// if (idadeMaiorQueDezoito){
+// console.log("Sou maior de idade")
+// } else{
+//     console.log("Você é menor de idade, não pode assistir Jogos Mortais")
+// }
+
+//  --- 
+
+
+//Else if = Vamos utilizar quando se tem mais de uma opção
+
+let numeroDaSorte = 4
+
+if(numeroDaSorte == 4){
+console.log("Uhull você ganhou na megasena")
+}  else if(numeroDaSorte == 5){
+console.log("Uhulll número sorteado")
+} else if(numeroDaSorte == 6){
+console.log("A nova rica da cidade")
+} else{
+    console.log("Você continua pobre")
 }
 
 
 
-//Else if 
+//Ex  = Else if
 
-let dia = 27
+let tamanhoRoupa = "pp" //gavetinha chamada tamanhoRoupa está guardando o valor "g"
 
-if(dia === 0){
-    console.log("Domingo")
-} else if(dia === 1){
-    console.log("Segunda")
-} else if(dia === 2) {
-    console.log("Terça")
-}else if(dia === 3){
-console.log("Quarta")
+if(tamanhoRoupa == "p"){
+console.log("O tamanho é P")
+} else if (tamanhoRoupa == "m"){
+console.log("O tamanho é M")
+} else if (tamanhoRoupa == "g"){
+console.log("O tamanho é G")
+} else if(tamanhoRoupa == "gg"){
+console.log("O tamanho é GG")
 } else{
-    console.log("dia inválido")
+    console.log("Produto indisponível")
 }
 
 
-// Bônus: Em valores binários 0 é false e 1 é true
+
+//Ex Else if
 
 
-let animal2 = "cachorro"
+let kilometragem = 300 //tipo numérico 
 
-if(animal2 == "gato") {
-console.log("Miau")
-} else if(animal2 == "papagaio"){
-console.log("Parabéns pra você")
-} else if (animal2 == "pato"){
-    console.log("qua qua ")
+if(kilometragem <= 220 ){  //300 é menor < que 220 ? OU 300 é igual a 220? 
+console.log("Esse carro é semi novo")
 } else{
-    console.log("Não adivinhou o animal")
+    console.log("Não compre esse carro")
+}
+
+
+//Ex do professor nas salas de aula
+
+let professor = 12
+
+if(professor == 2){
+ console.log("Achei a minha turma")
+}  else if(professor == 3){
+console.log("Essa turma não é a sua")
+} else if( professor == 4){
+console.log("Essa turma não é a sua")
+} else if(professor == 5){
+console.log("Essa turma não é a sua")
+} else {
+    console.log("Professor, sua aula já acabou e você não achou a sua turma")
+}
+
+
+//Diferença de IF , Else e Else If
+
+let cor = "verde"
+
+if(cor == "vermelho"){
+console.log("Acertei a cor") 
+} else if( cor == "verde"){
+console.log ("A cor escolhida foi o verde")
+} else if ( cor == "cinza"){
+console.log ("A cor escolhida foi o cinza")
+} else {
+    console.log("Tente outro dia")
+}
+
+
+//
+
+let filme = "shrek"
+
+if(filme == "as branquelas"){
+console.log("Filme escolhido foi o certo ")
+} else if( filme == "monstros sa"){
+console.log("Filme muito bom, foi escolhido.")
+} else if(filme == "shrek"){
+console.log("Filmaço")
+} else{
+    console.log("Nenhum dos filmes foi escolhido")
+}
+
+
+
+
+
+
+let tulani = -1  //número negativo -1
+
+if(tulani == 1){ //número positivo 1 
+console.log("teste")
 }
